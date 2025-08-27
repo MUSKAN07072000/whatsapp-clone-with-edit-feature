@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gemini WhatsApp Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'wa-dark-teal': '#005C4B',
+              'wa-light-teal': '#008069',
+              'wa-teal-green': '#128C7E',
+              'wa-light-green': '#25D366',
+              'wa-chat-bg-light': '#E5DDD5',
+              'wa-chat-bg-dark': '#0B141A',
+              'wa-dark-100': '#111B21',
+              'wa-dark-200': '#202C33',
+              'wa-dark-300': '#222E35',
+              'wa-dark-text': '#E9EDEF',
+              'wa-dark-text-secondary': '#8696A0',
+              'wa-light-100': '#FFFFFF',
+              'wa-light-200': '#F0F2F5',
+              'wa-light-text': '#3B4A54',
+              'wa-light-text-secondary': '#667781',
+              'wa-msg-out-light': '#D9FDD3',
+              'wa-msg-out-dark': '#005C4B',
+              'wa-msg-in-light': '#FFFFFF',
+              'wa-msg-in-dark': '#202C33',
+              'wa-story-seen': '#344552',
+              'wa-story-unseen': '#25D366',
+            },
+          },
+        },
+        darkMode: 'class',
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.15.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.542.0",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/"
+  }
+}
+</script>
+</head>
+  <body class="bg-wa-chat-bg-light dark:bg-wa-chat-bg-dark">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

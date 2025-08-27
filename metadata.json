@@ -1,0 +1,5 @@
+{
+  "name": "Gemini WhatsApp Clone",
+  "description": "A modern WhatsApp clone web app that replicates core messaging, group chat, user profile, and an enhanced editable STATUS (stories) feature powered by Gemini AI for content generation.",
+  "requestFramePermissions": []
+}
